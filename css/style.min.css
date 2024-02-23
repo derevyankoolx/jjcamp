@@ -826,7 +826,10 @@ img {
   margin-bottom: 20px;
 }
 
+
 /*  //////////custom styles\\\\\\\\\ */
+
+
 
 
 .hero-banner .image-holder img {
@@ -5536,4 +5539,40 @@ a {
 
 .resize-active * {
   transition: none !important;
+}
+
+
+.medal-banner {
+  position: relative;
+}
+
+.medal-banner:before {
+  content: '';
+  position: absolute;
+  background-image: url('../bulgaria/img/medal.png');
+  width: 250px;
+  height: 250px;
+  top: -127px;
+  right: -20px;
+}
+
+@media (max-width: 1200px) {
+  .medal-banner:before {
+    background-image: url('../bulgaria/img/medal-2.png');
+    width: 175px;
+    height: 175px;
+    top: -50px;
+    right: -20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .medal-banner:before {
+    background-image: url('../bulgaria/img/medal-3.png');
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    top: -25px;
+    right: 0px;
+  }
 }
