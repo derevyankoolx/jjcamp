@@ -5550,19 +5550,19 @@ a {
   content: '';
   position: absolute;
   background-image: url('../bulgaria/img/medal.png');
-  width: 250px;
-  height: 250px;
-  top: -127px;
-  right: -20px;
+  width: 175px;
+  height: 175px;
+  bottom: -115%;
+  right: -130px;
 }
 
 @media (max-width: 1200px) {
   .medal-banner:before {
     background-image: url('../bulgaria/img/medal-2.png');
-    width: 175px;
-    height: 175px;
-    top: -50px;
-    right: -20px;
+    width: 100px;
+    height: 100px;
+    bottom: -76%;
+    right: -50px;
   }
 }
 
@@ -5570,9 +5570,9 @@ a {
   .medal-banner:before {
     background-image: url('../bulgaria/img/medal-3.png');
     background-repeat: no-repeat;
-    width: 100px;
-    height: 100px;
-    top: -25px;
-    right: 0px;
+    width: 60px;
+    height: 60px;
+    top: 160%;
+    right: -13px;
   }
 }
